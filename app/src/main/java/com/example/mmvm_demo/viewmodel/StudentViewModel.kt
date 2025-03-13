@@ -37,4 +37,10 @@ class StudentViewModel : ViewModel() {
     fun removeStudent(student: Student) {
         _students.value = _students.value?.filter { it.id != student.id }
     }
+
+    fun sortStudents() {
+        _students.value = _students.value?.sortedBy { it.first_name + it.last_name }
+    }
+
+
 }

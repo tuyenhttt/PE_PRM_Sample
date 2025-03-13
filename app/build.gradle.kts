@@ -79,4 +79,13 @@ dependencies {
     implementation("androidx.compose.runtime:runtime-livedata:1.5.1")
     implementation("androidx.compose.material3:material3:1.2.0")
     implementation("io.coil-kt:coil-compose:2.2.2")
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.0")
+    implementation("androidx.room:room-runtime:2.5.2")
+
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.0")
+
 }
