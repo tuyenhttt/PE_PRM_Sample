@@ -1,7 +1,7 @@
 package com.example.mmvm_demo.data.repository
 
 import com.example.mmvm_demo.data.model.Student
-import com.example.mmvm_demo.data.remote.RetrofitInstance
+import com.example.mmvm_demo.data.network.RetrofitInstance
 
 class StudentRepository {
     private val apiService = RetrofitInstance.api

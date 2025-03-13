@@ -1,4 +1,4 @@
-package com.example.mmvm_demo.data.remote
+package com.example.mmvm_demo.data.network
 
 import com.example.mmvm_demo.data.model.Student
 import retrofit2.Retrofit
